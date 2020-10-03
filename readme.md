@@ -1,4 +1,12 @@
-# Apache Spark Term project
+# Term Project using Python for Apache Spark
+
+## to Run
+
+```bash
+
+./TermProject.py hdfs://localhost:9000/user/student/airline/1999.csv hdfs://localhost:9000/tmp/output
+
+```
 
 ## start-hdfs.bash
 
@@ -20,12 +28,3 @@ hdfs dfs -mkdir /tmp
 hdfs dfs -copyFromLocal ./airline/* /user/student/airline
 hdfs dfs -copyFromLocal ./shakespeare/tragedy /user/student/shakespeare
 ```
-
-## to run
-
-```bash
-
-./TermProject.py hdfs://localhost:9000/user/student/airline/1999.csv hdfs://localhost:9000/tmp/output
-
-```
-
